@@ -1,0 +1,136 @@
+h1 {
+  color: #00aeff;
+  font-family: "Londrina Shadow";
+  letter-spacing: 12px;
+  font-size: 52px;
+}
+
+h2 {
+  font-family: "Happy Monkey";
+  color: #FFB71C;
+  font-size: 27px;
+}
+
+p {
+  color: #e8e8e8;
+  font-family: "Comfortaa";
+}
+
+a {
+  color: #7289DA;
+  font-family: "Comfortaa";
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  color: #a3e51e;
+}
+
+body {
+  background-color: #2c2f33;
+  visibility: hidden;
+  overflow-x: hidden;
+}
+
+/* other */
+
+.center {
+  text-align: center;
+}
+
+.nopadding {
+  padding: 0px;
+  margin: 0px;
+}
+
+.custom-br {
+  display: block;
+  content: '';
+}
+
+button {
+  text-decoration: none;
+  padding: 1px 6px;
+  background-color: #2c2f33;
+  color: orange;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  font-family: "Montserrat";
+}
+
+button:hover {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.avatar {
+  border: 4px solid #4caf50;
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  transition-duration: 0.4s;
+}
+
+.avatar:hover {
+  background-color: #2ccfff;
+  border: 4px solid orange;
+}
+
+hr {
+  border-color: #4caf50;
+  background-color: #FF433D;
+  height: 5px;
+  border-width: 2px;
+}
+
+.emoji {
+  display: inline;
+  width: 35px;
+  height: 35px;
+  vertical-align: -10px;
+}
+
+.cemoji {
+  display: inline;
+  width: 10px;
+  height: 10px;
+}
+
+/* Gallery */
+#gallery > img {
+  width: 200px;
+  height: 200px;
+}
+
+/* FOOTER */
+.bottom, .bottom2 {
+  /* position: absolute; */
+  position: block;
+  bottom: 5px;
+  width: 100%;
+  height: 20px;
+  background-color: #23272A;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Baloo Tamma 2";
+}
+
+.bottom2 {
+  height: 50px;
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .bottom {
+    display: block;
+  }
+  .bottom2 {
+    display: none;
+  }
+}
