@@ -100,9 +100,44 @@ hr {
 }
 
 /* Gallery */
-#gallery > img {
+#gallery > div {
+  display: inline-block;
+  background-color: #99AAB5;/* #BBBBBB; */
+  width: 500px;
+  height: 550px;
+  transition-duration: 0.4s;
+  border-radius: 10%;
+}
+
+.gleft {
+  margin: 0 auto;
   width: 200px;
-  height: 200px;
+  margin-left: 100px;
+}
+
+.gright {
+  margin: 0 auto;
+  width: 200px;
+  margin-right: 100px;
+}
+
+#gallery > div > img {
+  width: 500px;
+  height: 500px;
+}
+
+#gallery > div > p {
+  color: black;
+  text-align: center;
+}
+
+#gallery > div > p > a {
+  transition-duration: 0.4s;
+  color: black;
+}
+
+#gallery > div > p > a:hover {
+  color: white;
 }
 
 /* FOOTER */
