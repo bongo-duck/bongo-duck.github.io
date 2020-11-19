@@ -7,7 +7,7 @@ h1 {
 
 h2 {
   font-family: "Happy Monkey";
-  color: #2AF5FF;/* #FFC857; */
+  color: #2AF5FF;
   font-size: 27px;
 }
 
@@ -80,8 +80,8 @@ button:hover {
 }
 
 hr {
-  border-color: #2F9C95;
-  background-color: #F66856;
+  border-color: #92E9BB;
+  background-color: #F66451;
   height: 5px;
   border-width: 2px;
 }
