@@ -7,7 +7,7 @@ h1 {
 
 h2 {
   font-family: "Happy Monkey";
-  color: #FFB71C;
+  color: #2AF5FF;/* #FFC857; */
   font-size: 27px;
 }
 
@@ -17,13 +17,13 @@ p {
 }
 
 a {
-  color: #7289DA;
+  color: #9381FF;
   font-family: "Comfortaa";
   transition-duration: 0.4s;
 }
 
 a:hover {
-  color: #a3e51e;
+  color: #A3F7B5;
 }
 
 body {
@@ -80,8 +80,8 @@ button:hover {
 }
 
 hr {
-  border-color: #4caf50;
-  background-color: #FF433D;
+  border-color: #336699;
+  background-color: #FF495C;
   height: 5px;
   border-width: 2px;
 }
