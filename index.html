@@ -32,19 +32,35 @@
   </div><br class="custom-br" style="margin-top: 70px;"/>
 
   <div id="gallery">
+    <h2 class="center">Gallery</h2>
+    <!--sse--><p class="center">Fan-made Bongo Duck Art! You can <a href="https://forms.gle/74ES7H7K32REm1NLA">submit your own fanart here.</a></p><!--/sse--><br/>
+
     <div class="gleft">
-      <img src="files/gallery/SpectralNinja.png"/>
-      <p>Made by <a href="https://twitter.com/spectralninja">SpectralNinja</a></p>
-    </div><span></span>
+      <picture>
+        <source type="image/webp" srcset="files/gallery/SpectralNinja.webp">
+        <source type="image/png" srcset="files/gallery/SpectralNinja.png">
+        <img src="files/gallery/SpectralNinja.png" alt="Bongo Duck by SpectralNinja"/>
+      </picture>
+      <p>Bongo Duck by <a href="https://twitter.com/spectralninja">SpectralNinja</a></p>
+      <button onclick="window.open('files/gallery/raw/SpectralNinja.png', '_blank')">View Raw Image</button>
+    </div>
+
     <div class="gright">
-      <img src="files/gallery/Umaru-chan.png"/>
+      <picture>
+        <source type="image/webp" srcset="files/gallery/Umaru-chan.webp">
+        <source type="image/png" srcset="files/gallery/Umaru-chan.png">
+        <img src="files/gallery/Umaru-chan.png" alt="8Bit Bongo Duck by Umaru-chan"/>
+      </picture>
       <p>8bit Bongo Duck by <a href="https://discord.com/users/347840888636178443">Umaru-chan on Discord</a></p>
+      <button onclick="window.open('files/gallery/raw/Umaru-chan.png', '_blank')">View Raw Image</button>
     </div>
   </div>
 
+  <div id="reference"></div>
+
 </body>
 <footer>
-  <br class="custom-br" style="margin-top: 100px;"/><div class="bottom">
+  <br class="custom-br" style="margin-top: 50px;"/><div class="bottom">
     <picture>
       <source type="image/webp" srcset="files/emojis/copyright.webp">
       <source type="image/png" srcset="files/emojis/copyright.png">
