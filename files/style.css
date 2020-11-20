@@ -123,7 +123,7 @@ hr {
   margin-left: 200px;
 }
 
-#gallery > div > img {
+#gallery > div > picture > img {
   width: 500px;
   height: 500px;
 }
@@ -150,6 +150,90 @@ hr {
 #gallery > div > button:hover {
   background-color: #FF6F59;
   color: white;
+}
+
+/* Reference */
+#reference > div {
+  /* text-align: center; */
+  vertical-align: middle;
+  display: inline-block;
+  background-color: #99AAB5;
+  width: 500px;
+  height: 200px;
+  transition-duration: 0.4s;
+  border-radius: 5%;
+}
+
+.rleft {
+  margin: 0 auto;
+  width: 200px;
+  margin-left: 100px;
+}
+
+.rright {
+  margin: 0 auto;
+  width: 200px;
+  margin-right: 100px;
+  margin-left: 200px;
+}
+
+#reference > div > picture > img {
+  position: relative;
+  top: 10%;
+  left: 2.5%;
+  width: 150px;
+  height: 150px;
+}
+
+#reference > div > p {
+  position: relative;
+  color: black;
+}
+
+#reference > div > p > a {
+  transition-duration: 0.4s;
+  color: black;
+}
+
+#reference > div > p > a:hover {
+  color: white;
+}
+
+#reference > div > button {
+  position: relative;
+  border: 2px solid #FF6F59;
+  background-color: #BBBBBB;
+  color: black;
+}
+
+#reference > div > button:hover {
+  background-color: #FF6F59;
+  color: white;
+}
+
+/* Reference Custom */
+#normal > button {
+  left: 38%;
+  bottom: 65%;
+  font-size: 20px;
+}
+
+#normal > p {
+  left: 35%;
+  bottom: 55%;
+  font-size: 30px;
+}
+
+#holiday > button {
+  left: 39%;
+  bottom: 65%;
+  font-size: 20px;
+}
+
+#holiday > p {
+  left: 35%;
+  bottom: 55%;
+  font-size: 27.5px;
 }
 
 /* FOOTER */
